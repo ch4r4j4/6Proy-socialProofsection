@@ -4,14 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="style.css">
     <title>Frontend Mentor | Social proof section</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -26,44 +25,86 @@
     </style>
   </head>
   <body>
-    <section class="into">
+    <main class="main">
+    <section class="intro">
       <article class="description">
         <h1 class="title">10,000+ of our users love our products.</h1>
         <p class="paragraph">We only provide great products combined with excellent customer service.
           See what our satisfied customers are saying about our services.</p>
       </article>
       <article class="calification">
-        <div class="stars">Rated 5 Stars in Reviews</div>
-        <div class="stars">Rated 5 Stars in Report Guru</div>
-        <div class="stars">Rated 5 Stars in BestTech</div>
+        <div class="stars" id="cl-1">
+          <div class="numstar">
+            <img src="./images/icon-star.svg" alt="" class="star">
+            <img src="./images/icon-star.svg" alt="" class="star">
+            <img src="./images/icon-star.svg" alt="" class="star">
+            <img src="./images/icon-star.svg" alt="" class="star">
+            <img src="./images/icon-star.svg" alt="" class="star">
+          </div>
+          <div class="star-title">
+            <p>Rated 5 Stars in Reviews</p>
+          </div>
+        </div>
+
+        <div class="stars" id="cl-2">
+          <div class="numstar">
+            <img src="./images/icon-star.svg" alt="" class="star">
+            <img src="./images/icon-star.svg" alt="" class="star">
+            <img src="./images/icon-star.svg" alt="" class="star">
+            <img src="./images/icon-star.svg" alt="" class="star">
+            <img src="./images/icon-star.svg" alt="" class="star">
+          </div>
+          <div class="star-title">
+            <p>Rated 5 Stars in Report Guru</p>
+          </div>
+        </div>
+        
+        <div class="stars" id="cl-3">
+          <div class="numstar">
+            <img src="./images/icon-star.svg" alt="" class="star">
+            <img src="./images/icon-star.svg" alt="" class="star">
+            <img src="./images/icon-star.svg" alt="" class="star">
+            <img src="./images/icon-star.svg" alt="" class="star">
+            <img src="./images/icon-star.svg" alt="" class="star">
+          </div>
+          <div class="star-title">
+            <p>Rated 5 Stars in BestTech</p>
+          </div>
+        </div>
       </article>    
     </section>
-    <section>
-      <article class="item-card">
+    <section class="cards">
+      <article class="item-card" id="item-colton">
         <div class="profile">
-        <img class="photo-profile" src="" alt=""></img>
-        <h2 class="name">Colton Smith</h2>
-        <h3 class="verified">Verified Buyer</h3>
-      </div>
+          <img class="photo-profile" src="./images/image-colton.jpg" alt=""/>
+          <div class="item-title">
+            <h2 class="name">Colton Smith</h2>
+            <h3 class="verified">Verified Buyer</h3>
+          </div>
+        </div>
         <p class="opinion">"We needed the same printed design as the one we had ordered a week prior.
           Not only did they find the original order, but we also received it in time.
           Excellent!"</p>
       </article>
-      <article class="item-card">
+      <article class="item-card" id="item-roberts">
         <div class="profile">
-        <img class="photo-profile" src="" alt=""></img>
-        <h2 class="name">Irene Roberts</h2>
-        <h3 class="verified">Verified Buyer</h3>
-      </div>
+          <img class="photo-profile" src="./images/image-irene.jpg" alt=""/>
+          <div class="item-title">
+            <h2 class="name">Irene Roberts</h2>
+            <h3 class="verified">Verified Buyer</h3>
+          </div>
+        </div>
         <p class="opinion">"Customer service is always excellent and very quick turn around. Completely
           delighted with the simplicity of the purchase and the speed of delivery."</p>
       </article>
-      <article class="item-card">
+      <article class="item-card" id="item-wallace">
         <div class="profile">
-        <img class="photo-profile" src="" alt=""></img>
-        <h2 class="name">Anne Wallace</h2>
-        <h3 class="verified">Verified Buyer</h3>
-      </div>
+          <img class="photo-profile" src="./images/image-anne.jpg" alt=""/>
+          <div class="item-title">
+            <h2 class="name">Anne Wallace</h2>
+            <h3 class="verified">Verified Buyer</h3>
+          </div>
+        </div>
         <p class="opinion">"Put an order with this company and can only praise them for the very high
           standard. Will definitely use them again and recommend them to everyone!"</p>
       </article>
@@ -74,6 +115,7 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
     </div>-->
+  </main>
   </body>
 </html>
 
