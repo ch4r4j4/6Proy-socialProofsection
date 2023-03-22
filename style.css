@@ -131,3 +131,17 @@ body{
     font-weight: 700;
     color: var(--color-violet);
 }
+
+@media (max-width: 975px) {
+    .intro{
+        flex-direction: column;
+        height: max-content;
+    }
+    .cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .item-card{
+        margin: 0.5rem;
+    }
+}
